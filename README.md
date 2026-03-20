@@ -1,1 +1,1 @@
-
+  -O objetivo do site é apresentar minhas informações e qualidades pessoais que sejam relevantes para um ambiente de trabalho, me aproximando do visitante.
