@@ -12,7 +12,9 @@ Texto        |   #451A03
 Accent       |   #6366F1
 
 Radius       |   8px
-           
+
+
+
 
 Logotio:
 https://ui-avatars.com/api/?background=92400E&color=451A03&name=Guilherme+Matias
