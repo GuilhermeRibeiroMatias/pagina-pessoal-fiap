@@ -2,10 +2,15 @@
 
   
 Primaria     |   #92400E 
+
 Secundaria   |   #22C55E
+
 Background   |   #FFFBEB
+
 Texto        |   #451A03
+
 Accent       |   #6366F1
+
 Radius       |   8px
            
 
