@@ -1,9 +1,9 @@
-    O objetivo do site e apresentar minhas informacoes e qualidades pessoais que sejam relevantes para um ambiente de trabalho, me aproximando do visitante.
+    O objetivo do site é apresentar minhas informações e qualidades pessoais que sejam relevantes para um ambiente de trabalho, me aproximando do visitante.
 
   
-Primaria     |   #92400E 
+Primária     |   #92400E 
 
-Secundaria   |   #22C55E
+Secundária   |   #22C55E
 
 Background   |   #FFFBEB
 
