@@ -146,5 +146,30 @@ tbody td {
     color: #451A03;
     border-bottom: 1px solid #f0e0c0;
 }
+.projetos-row {
+    display: flex;
+    gap: 20px;
+}
+
+.projeto-card {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #f0e0c0;
+    border-radius: 8px;
+    padding: 20px 22px;
+}
+
+.projeto-card h4 {
+    color: #6366F1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.projeto-card p {
+    font-size: 13px;
+    color: #451A03;
+    line-height: 1.6;
+}
 
 
