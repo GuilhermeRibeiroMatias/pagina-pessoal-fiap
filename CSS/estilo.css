@@ -323,8 +323,31 @@ footer {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .form-box button:hover {
+    background: #22C55E;
+}
+.info-box h4 {
+    color: #92400E;
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    background: #92400E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+social-links a:hover {
     background: #22C55E;
 }
