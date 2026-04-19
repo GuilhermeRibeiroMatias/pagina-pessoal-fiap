@@ -275,3 +275,16 @@ footer {
     margin-top: 20px;
     font-size: 12px;
 }
+
+.contato-container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-box, .info-box {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #f0e0c0;
+    border-radius: 8px;
+    padding: 20px;
+}
