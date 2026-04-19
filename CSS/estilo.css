@@ -62,7 +62,7 @@ section {
 .section-title {
     font-size: 19px;
     color: #92400E;
-    border-left: 4px solid #6366F1;
+    border-left: 4px solid #22C55E;
     padding-left: 10px;
     margin-bottom: 20px;
 }
@@ -160,7 +160,7 @@ tbody td {
 }
 
 .projeto-card h4 {
-    color: #6366F1;
+    color: #92400E;
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 8px;
@@ -168,7 +168,7 @@ tbody td {
 
 .projeto-card p {
     font-size: 13px;
-    color: #451A03;
+    color: #22C55E;
     line-height: 1.6;
 }
 
@@ -268,7 +268,7 @@ table {
 
 footer {
     width: 100%;
-    background: #0F172A;
+    background: #92400E;
     color: white;
     text-align: center;
     padding: 20px;
