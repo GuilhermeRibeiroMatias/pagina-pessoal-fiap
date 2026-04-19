@@ -186,7 +186,7 @@ section {
 
 .hero {
     width: 100%;
-    background: #3B82F6;
+    background: #92400E;
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -210,7 +210,7 @@ section {
 
 .hero .buttons a {
     background: #fff;
-    color: #3B82F6;
+    color: #92400E;
     padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
@@ -234,11 +234,11 @@ nav {
 }
 
 .skill-card:nth-child(1) {
-    border-top: 3px solid #3B82F6;
+    border-top: 3px solid #92400E;
 }
 
 .skill-card:nth-child(2) {
-    border-top: 3px solid #F97316;
+    border-top: 3px solid #6366F1;
 }
 
 .skill-card:nth-child(3) {
