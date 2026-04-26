@@ -1,0 +1,75 @@
+
+.contato-container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-box, .info-box {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #f0e0c0;
+    border-radius: 8px;
+    padding: 20px;
+}
+.form-box h4 {
+    color: #92400E;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-left: 4px solid #22C55E; 
+    padding-left: 8px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-box input,
+.form-box textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-box textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.form-box button {
+    background: #92400E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-box button:hover {
+    background: #22C55E;
+}
+.info-box h4 {
+    color: #92400E;
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    background: #92400E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.social-links a:hover {
+    background: #22C55E;
+}
