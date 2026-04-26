@@ -50,9 +50,15 @@ nav ul li a:hover {
     color: #22C55E;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section {
     background: #fff;
-    margin: 35px;
+    margin: 35px auto;
+    width: 90%;
     max-width: 880px;
     border-radius: 8px;
     padding: 32px;
@@ -182,6 +188,7 @@ body {
 
 section {
     width: 100%;
+    max-width: 880px;
 }
 
 
@@ -254,7 +261,7 @@ table {
 }
 
 
-.projetos-row {
+.projeto-row {
     margin-top: 10px;
 }
 
@@ -348,6 +355,25 @@ footer {
     text-decoration: none;
     font-size: 13px;
 }
-social-links a:hover {
+.social-links a:hover {
     background: #22C55E;
+}
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sobre-grid,
+    .habilidades-row,
+    .projeto-row,
+    .contato-container {
+        flex-direction: column;
+    }
+
+    .sobre-grid img {
+        width: 100%;
+        height: auto;
+    }
 }
