@@ -306,7 +306,7 @@ footer {
 .form-box input,
 .form-box textarea {
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 14px;
 }
