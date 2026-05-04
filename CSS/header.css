@@ -42,3 +42,10 @@ nav ul li a {
 nav ul li a:hover {
     color: #22C55E;
 }
+
+.menu-toggle {
+    display: none;
+    font-size: 22px;
+    color: var(--background);
+    cursor: pointer;
+}
