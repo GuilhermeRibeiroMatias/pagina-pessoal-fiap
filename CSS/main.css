@@ -160,6 +160,26 @@ table {
 .projeto-card:hover {
     transform: translateY(-3px);
 }
+.accordion-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid var(--primary);
+    background: transparent;
+    cursor: pointer;
+    border-radius: var(--radius);
+    color: var(--primary);
+    font-weight: bold;
+}
 
 
 

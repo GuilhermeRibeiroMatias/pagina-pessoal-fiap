@@ -42,10 +42,38 @@ nav ul li a {
 nav ul li a:hover {
     color: #22C55E;
 }
-
+.menu {
+    display: flex;
+}
 .menu-toggle {
     display: none;
     font-size: 22px;
     color: var(--background);
     cursor: pointer;
+}
+@media (max-width: 768px) {
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background: var(--primary);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transition: 0.3s;
+    }
+
+    .menu.active {
+        right: 0; 
+    }
+
+    .menu-toggle {
+        display: block;
+    }
 }
