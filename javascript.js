@@ -1,9 +1,5 @@
 const toggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.menu');
-
-toggle.addEventListener('click', () => {
-    menu.classList.toggle('active');
-});
 const headers = document.querySelectorAll('.accordion-header');
 
 headers.forEach(header => {
@@ -15,4 +11,21 @@ headers.forEach(header => {
             ? '▲ Detalhes das Habilidades'
             : '▼ Detalhes das Habilidades';
     });
+});
+const links = document.querySelectorAll('.menu a');
+
+links.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('active');
+         toggle.textContent = '☰';
+    });
+});
+const closeBtn = document.querySelector('.close-btn');
+
+toggle.addEventListener('click', () => {
+    menu.classList.add('active');
+});
+
+closeBtn.addEventListener('click', () => {
+    menu.classList.remove('active');
 });
