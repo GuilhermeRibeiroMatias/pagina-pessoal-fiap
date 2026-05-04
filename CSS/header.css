@@ -61,11 +61,12 @@ nav ul li a:hover {
 .menu.active .close-btn {
     display: block;
 }
+
 @media (max-width: 768px) {
 
        .menu {
         position: fixed;
-        top: -100%; 
+        top: -300px; 
         left: 0;
         width: 100%;
         background: var(--primary);
@@ -80,7 +81,7 @@ nav ul li a:hover {
     }
 
     .menu.active {
-        top: 0; 
+        top: 60px;
     }
 
     .menu-toggle {

@@ -29,3 +29,25 @@ toggle.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+const topBtn = document.getElementById('topBtn');
+
+// mostrar quando rolar
+window.addEventListener('scroll', () => {
+
+    if (window.scrollY > 200) {
+        topBtn.style.display = 'block';
+    } else {
+        topBtn.style.display = 'none';
+    }
+
+});
+
+// clicar → voltar pro topo
+topBtn.addEventListener('click', () => {
+
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+});

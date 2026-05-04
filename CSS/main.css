@@ -226,3 +226,25 @@ table {
         flex-direction: column;
     }
 }
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%; 
+
+    background: var(--primary);
+    color: white;
+
+    border: none;
+    cursor: pointer;
+
+    display: none;
+
+    font-size: 18px;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
