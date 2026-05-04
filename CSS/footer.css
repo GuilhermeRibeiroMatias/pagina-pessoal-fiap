@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    background: #92400E;
+    background: var(--primary);
     color: white;
     text-align: center;
     padding: 20px;

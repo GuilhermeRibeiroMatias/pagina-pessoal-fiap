@@ -6,8 +6,8 @@ table {
 }
 
 thead tr {
-    background: #92400E;
-    color: #FFFBEB;
+    background: var(--primary);
+    color: var(--background);
 }
 
 thead th {
@@ -16,11 +16,11 @@ thead th {
 }
 
 tbody tr:nth-child(even) {
-    background: #FFFBEB;
+    background: var(--background);
 }
 
 tbody td {
     padding: 10px 12px;
-    color: #451A03;
+    color: var(--text);
     border-bottom: 1px solid #f0e0c0;
 }

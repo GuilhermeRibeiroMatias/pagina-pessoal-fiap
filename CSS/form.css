@@ -12,10 +12,10 @@
     padding: 20px;
 }
 .form-box h4 {
-    color: #92400E;
+    color: var(--primary);
     margin-bottom: 15px;
     font-weight: bold;
-    border-left: 4px solid #22C55E; 
+    border-left: 4px solid var(--secondary); 
     padding-left: 8px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .form-box button {
-    background: #92400E;
+    background: var(--primary);
     color: white;
     padding: 10px;
     border: none;
@@ -49,7 +49,7 @@
 }
 
 .form-box button:hover {
-    background: #22C55E;
+    background: var(--secondary);
 }
 .info-box h4 {
     color: #92400E;

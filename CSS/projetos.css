@@ -10,18 +10,18 @@
     flex: 1;
     background: #fff;
     border: 1px solid #f0e0c0;
-    border-radius: 8px;
+    border-radius: var(--radius);
     padding: 20px 22px;
-    border-top: 3px solid #92400E;
+    border-top: 3px solid var(--primary);
 }
 
 .projeto-card h4 {
-    color: #92400E;
+    color: var(--primary);
     font-size: 14px;
     margin-bottom: 6px;
 }
 
 .projeto-card p {
     font-size: 13px;
-    color: #22C55E;
+    color: var(--text);
 }
