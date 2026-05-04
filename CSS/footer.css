@@ -1,0 +1,9 @@
+footer {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
