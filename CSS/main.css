@@ -43,14 +43,14 @@ section {
 .sobre-grid {
     display: flex;
     gap: 24px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .sobre-grid img {
-    width: 110px;
-    height: 110px;
-    border-radius: 8px;
-    flex-shrink: 0;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius);
 }
 
 .sobre-grid p {
@@ -196,6 +196,7 @@ table {
     .projeto-row,
     .contato-container {
         flex-direction: column;
+      text-align: center;
     }
 
     .sobre-grid img {
