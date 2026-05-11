@@ -160,12 +160,15 @@
             
             <label for="nome">Nome *</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            <small class="erro nome-erro"></small>
 
             <label>E-mail *</label>
             <input type="email" name="email" placeholder="seu@email.com" required>
+            <small class="erro email-erro"></small>
 
             <label>Mensagem *</label>
             <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            <small class="erro msg-erro"></small>
 
             <button type="submit">Enviar Mensagem</button>
         </form>

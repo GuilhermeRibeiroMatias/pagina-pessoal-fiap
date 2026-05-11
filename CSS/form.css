@@ -73,3 +73,20 @@
 .social-links a:hover {
     background: #22C55E;
 }
+.erro {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 4px;
+}
+
+.input-erro {
+    border: 1px solid red !important;
+}
+
+.sucesso-box {
+    background: var(--secondary);
+    color: white;
+    padding: 20px;
+    border-radius: var(--radius);
+}
