@@ -42,3 +42,51 @@ nav ul li a {
 nav ul li a:hover {
     color: #22C55E;
 }
+.menu {
+    display: flex;
+}
+.menu-toggle {
+    display: none;
+    font-size: 22px;
+    color: var(--background);
+    cursor: pointer;
+}
+.close-btn {
+    display: none;
+}
+.menu.active ~ .menu-toggle {
+    display: none;
+}
+
+.menu.active .close-btn {
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+       .menu {
+        position: fixed;
+        top: -300px; 
+        left: 0;
+        width: 100%;
+        background: var(--primary);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0;
+
+        transition: 0.3s;
+        z-index: 999;
+    }
+
+    .menu.active {
+        top: 60px;
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 1000;
+    }
+
+}
