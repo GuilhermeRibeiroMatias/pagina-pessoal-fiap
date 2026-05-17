@@ -35,8 +35,10 @@
     <p>Aluno de Tecnologia em Análise e Desenvolvimento de Sistemas na Fiap.</p>
     <br>
     <section><h3 id="Sobre-mim">Sobre Mim</h3>
+          <div class="sobre-grid">
     <p>Olá! Sou um estudante apaixonado pela tecnologia que almeja obter experiências profissionais dentro da área. Tenho conhecimento em outras áreas como a química e administração, e desejo ampliar meus horizontes na tecnologia.</p>
-    <img src="images/IMG_7780.jpg" width="300" alt="Minha foto">
+    <img src="images/IMG_7780.jpg" alt="Minha foto">
+         </div>
     </section>
     <br>
     <section><h3 id="Objetivos">Objetivos Profissionais</h3>
@@ -155,17 +157,20 @@
 
     <div class="form-box">
         <h4>Envie sua mensagem</h4>
-         <form method="POST" action="#">
+         <form method="POST" action="#" novalidate>
            
             
             <label for="nome">Nome *</label>
             <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            <small class="erro nome-erro"></small>
 
             <label>E-mail *</label>
             <input type="email" name="email" placeholder="seu@email.com" required>
+            <small class="erro email-erro"></small>
 
             <label>Mensagem *</label>
             <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            <small class="erro msg-erro"></small>
 
             <button type="submit">Enviar Mensagem</button>
         </form>
